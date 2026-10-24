@@ -8,6 +8,8 @@ model draw from the wall* and *which hosts have a degraded array, a dying NVMe o
 Built for a large mixed fleet of bare-metal hosts (Supermicro, ASRockRack, Dell, HPE, Lenovo, ASUS)
 and cloud VMs. It works just as well on a handful of machines.
 
+Also on grafana.com: [Fleet Hardware Inventory, ID 25961](https://grafana.com/grafana/dashboards/25961).
+
 ![Overview and Health rows](docs/screenshots/overview-health.webp)
 
 ## What's inside
@@ -73,7 +75,8 @@ server and most VMs do).
 
 ## Import
 
-1. In Grafana: **Dashboards → New → Import**, upload `fleet-hardware.json`.
+1. In Grafana: **Dashboards → New → Import**, enter ID **25961** (from
+   [grafana.com](https://grafana.com/grafana/dashboards/25961)) or upload `fleet-hardware.json`.
 2. Pick your Prometheus data source in the **Data source** variable at the top.
 
 Or drop the file into a [provisioned dashboards folder](https://grafana.com/docs/grafana/latest/administration/provisioning/#dashboards).
