@@ -2759,7 +2759,9 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
@@ -3119,7 +3121,9 @@
               "__name__": true,
               "cluster": true,
               "container": true,
+              "dc": true,
               "endpoint": true,
+              "env": true,
               "environment": true,
               "job": true,
               "namespace": true,
@@ -3129,12 +3133,12 @@
             },
             "indexByName": {},
             "renameByName": {
-              "Value #A": "hosts",
               "bios_date": "BIOS date",
               "bios_version": "BIOS",
               "board_name": "board",
               "product_name": "model",
-              "system_vendor": "vendor"
+              "system_vendor": "vendor",
+              "Value": "hosts"
             }
           }
         },
@@ -3477,7 +3481,9 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
@@ -3589,7 +3595,9 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
@@ -3599,8 +3607,8 @@
                 },
                 "indexByName": {},
                 "renameByName": {
-                  "Value #A": "hosts",
-                  "model_name": "model"
+                  "model_name": "model",
+                  "Value": "hosts"
                 }
               }
             },
@@ -4867,7 +4875,9 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
@@ -5003,22 +5013,23 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
                   "pod": true,
                   "prometheus": true,
                   "service": true,
-                  "env": true,
                   "region": true
                 },
                 "indexByName": {},
                 "renameByName": {
-                  "Value #A": "size",
                   "configured_mts": "MT/s",
                   "instance": "host",
-                  "speed_mts": "rated MT/s"
+                  "speed_mts": "rated MT/s",
+                  "Value": "size"
                 }
               }
             },
@@ -5147,7 +5158,9 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
@@ -5157,8 +5170,8 @@
                 },
                 "indexByName": {},
                 "renameByName": {
-                  "Value #A": "CE",
-                  "instance": "host"
+                  "instance": "host",
+                  "Value": "CE"
                 }
               }
             },
@@ -5872,7 +5885,9 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
@@ -5882,9 +5897,9 @@
                 },
                 "indexByName": {},
                 "renameByName": {
-                  "Value #A": "drives",
                   "revision": "firmware",
-                  "rotational": "HDD"
+                  "rotational": "HDD",
+                  "Value": "drives"
                 }
               }
             },
@@ -6131,7 +6146,9 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
@@ -6318,17 +6335,19 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
                   "pod": true,
                   "prometheus": true,
-                  "service": true
+                  "service": true,
+                  "Value #A": true
                 },
                 "indexByName": {},
                 "renameByName": {
-                  "Value #A": "_",
                   "Value #B": "disks",
                   "Value #C": "required",
                   "Value #D": "degraded",
@@ -6429,17 +6448,19 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
                   "pod": true,
                   "prometheus": true,
-                  "service": true
+                  "service": true,
+                  "Value": true
                 },
                 "indexByName": {},
                 "renameByName": {
-                  "Value #A": "_",
                   "instance": "host"
                 }
               }
@@ -7046,7 +7067,9 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
@@ -7160,8 +7183,10 @@
                   "broadcast": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "duplex": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "ifalias": true,
                   "job": true,
@@ -7169,11 +7194,11 @@
                   "operstate": true,
                   "pod": true,
                   "prometheus": true,
-                  "service": true
+                  "service": true,
+                  "Value": true
                 },
                 "indexByName": {},
                 "renameByName": {
-                  "Value #A": "_",
                   "address": "MAC",
                   "instance": "host"
                 }
@@ -7272,17 +7297,19 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
                   "pod": true,
                   "prometheus": true,
-                  "service": true
+                  "service": true,
+                  "Value": true
                 },
                 "indexByName": {},
                 "renameByName": {
-                  "Value #A": "_",
                   "firmware_version": "firmware",
                   "hca_type": "HCA",
                   "instance": "host"
@@ -8292,7 +8319,9 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
@@ -9335,7 +9364,9 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
@@ -9559,22 +9590,24 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
                   "pod": true,
                   "prometheus": true,
-                  "service": true
+                  "service": true,
+                  "Value #A": true,
+                  "Value #F": true
                 },
                 "indexByName": {},
                 "renameByName": {
-                  "Value #A": "_",
                   "Value #B": "wall W",
                   "Value #C": "wall avg 24h",
                   "Value #D": "wall peak 24h",
                   "Value #E": "CPU W (RAPL)",
-                  "Value #F": "_",
                   "instance": "host",
                   "product_name": "model",
                   "src": "source",
@@ -10627,17 +10660,19 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
                   "pod": true,
                   "prometheus": true,
-                  "service": true
+                  "service": true,
+                  "Value": true
                 },
                 "indexByName": {},
                 "renameByName": {
-                  "Value #A": "_",
                   "instance": "host",
                   "product_name": "model",
                   "system_vendor": "vendor"
@@ -10752,25 +10787,25 @@
                   "container": true,
                   "endpoint": true,
                   "entity": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
                   "pod": true,
                   "prometheus": true,
                   "service": true,
-                  "env": true,
                   "project": true,
                   "role": true,
                   "region": true
                 },
                 "indexByName": {},
                 "renameByName": {
-                  "Value #A": "for",
                   "instance": "host",
                   "dc": "DC",
                   "product_name": "model",
                   "reading": "state",
-                  "system_vendor": "vendor"
+                  "system_vendor": "vendor",
+                  "Value": "for"
                 }
               }
             },
@@ -10952,7 +10987,9 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
@@ -10962,8 +10999,8 @@
                 },
                 "indexByName": {},
                 "renameByName": {
-                  "Value #A": "hosts",
-                  "release": "kernel"
+                  "release": "kernel",
+                  "Value": "hosts"
                 }
               }
             },
@@ -11060,7 +11097,9 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
@@ -11070,7 +11109,7 @@
                 },
                 "indexByName": {},
                 "renameByName": {
-                  "Value #A": "hosts"
+                  "Value": "hosts"
                 }
               }
             },
@@ -11250,20 +11289,21 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
                   "pod": true,
                   "prometheus": true,
                   "service": true,
-                  "env": true,
                   "region": true
                 },
                 "indexByName": {},
                 "renameByName": {
-                  "Value #A": "uptime",
-                  "instance": "host"
+                  "instance": "host",
+                  "Value": "uptime"
                 }
               }
             },
@@ -11373,20 +11413,21 @@
                   "__name__": true,
                   "cluster": true,
                   "container": true,
+                  "dc": true,
                   "endpoint": true,
+                  "env": true,
                   "environment": true,
                   "job": true,
                   "namespace": true,
                   "pod": true,
                   "prometheus": true,
                   "service": true,
-                  "env": true,
                   "region": true
                 },
                 "indexByName": {},
                 "renameByName": {
-                  "Value #A": "uptime",
-                  "instance": "host"
+                  "instance": "host",
+                  "Value": "uptime"
                 }
               }
             },
@@ -11713,11 +11754,37 @@
                   "namespace": true,
                   "pod": true,
                   "prometheus": true,
-                  "service": true
+                  "service": true,
+                  "Value #A": true,
+                  "Value #K": true,
+                  "Value #L": true
                 },
-                "indexByName": {},
+                "indexByName": {
+                  "instance": 0,
+                  "env": 1,
+                  "project": 2,
+                  "role": 3,
+                  "region": 4,
+                  "dc": 5,
+                  "system_vendor": 6,
+                  "product_name": 7,
+                  "bios_version": 8,
+                  "model_name": 9,
+                  "Value #B": 10,
+                  "Value #C": 11,
+                  "Value #D": 12,
+                  "Value #E": 13,
+                  "Value #F": 14,
+                  "Value #G": 15,
+                  "Value #H": 16,
+                  "Value #I": 17,
+                  "Value #J": 18,
+                  "pretty_name": 19,
+                  "release": 20,
+                  "Value #M": 21,
+                  "Value #N": 22
+                },
                 "renameByName": {
-                  "Value #A": "_",
                   "Value #B": "sockets",
                   "Value #C": "cores",
                   "Value #D": "threads",
@@ -11727,16 +11794,14 @@
                   "Value #H": "drives",
                   "Value #I": "NVMe",
                   "Value #J": "uplink",
-                  "Value #K": "_",
-                  "Value #L": "_",
                   "Value #M": "uptime",
                   "Value #N": "CPU °C",
                   "bios_version": "BIOS",
                   "instance": "host",
                   "dc": "DC",
                   "env": "env",
-                  "region": "geo",
-                  "role": "group",
+                  "region": "region",
+                  "role": "role",
                   "project": "project",
                   "model_name": "CPU",
                   "pretty_name": "OS",

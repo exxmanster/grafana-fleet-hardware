@@ -8,6 +8,8 @@ model draw from the wall* and *which hosts have a degraded array, a dying NVMe o
 Built for a large mixed fleet of bare-metal hosts (Supermicro, ASRockRack, Dell, HPE, Lenovo, ASUS)
 and cloud VMs. It works just as well on a handful of machines.
 
+![Overview and Health rows](docs/screenshots/overview-health.webp)
+
 ## What's inside
 
 | Row | What you get |
@@ -26,6 +28,32 @@ and cloud VMs. It works just as well on a handful of machines.
 | 11 · How to read | Short notes inside the dashboard |
 
 Most rows are collapsed by default, so the dashboard opens quickly even on a large fleet.
+
+## Screenshots
+
+The screenshots show a synthetic fleet of 55 hosts in four data centers with a few planted
+problems (memory errors, a worn-out NVMe, a degraded array, a capped CPU, a lost power feed).
+No real environment is shown.
+
+**Platform and CPU**: vendors, platforms, BIOS versions, CPU models, microcode drift, capped clocks.
+
+![Platform and CPU rows](docs/screenshots/platform-cpu.webp)
+
+**Memory and DIMMs**: installed vs free slots, module types and speeds, modules stacked on few channels.
+
+![Memory and DIMM row](docs/screenshots/memory-dimm.webp)
+
+**Thermal**: hottest CPUs and NVMe drives, fleet temperature over time.
+
+![Thermal row](docs/screenshots/thermal.webp)
+
+**Power**: wall draw by DC, project, platform and host; CPU package power; a PSU feed loss in one DC.
+
+![Power row](docs/screenshots/power.webp)
+
+**Host passport**: one row per host with everything merged.
+
+![Host passport](docs/screenshots/passport.webp)
 
 ## Requirements
 
